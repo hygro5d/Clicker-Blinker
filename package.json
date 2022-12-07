@@ -1,0 +1,23 @@
+{
+  "name": "clicker-blinker",
+  "version": "1.0.0",
+  "description": "An interative game I built using vanilla JavaScript, HTML and CSS. Click on the balls before they change colours and dissapear.",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hygro5d/Clicker-Blinker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hygro5d/Clicker-Blinker/issues"
+  },
+  "homepage": "https://github.com/hygro5d/Clicker-Blinker#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

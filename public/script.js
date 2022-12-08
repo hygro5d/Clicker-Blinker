@@ -91,7 +91,7 @@ function modify() {
 }
 
 //timer function
-let timeLeft = 20
+let timeLeft = 25
 let elem = document.getElementById('time')
 
 function countdown() {

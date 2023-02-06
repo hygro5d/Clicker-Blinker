@@ -21,8 +21,8 @@ for (let i = 0; i < balls; i++) {
 
 let myBalls = document.querySelectorAll('button')
 let ballsCounter = 0
-let timer
-let timerId
+//let timer
+//let timerId
 console.log(myBalls)
 
 //changing of colours function
@@ -53,7 +53,7 @@ function startCountDown() {
     ) {
       myBalls[i].style.display = 'none'
       gameBox.style.backgroundColor = 'red'
-      clearTimeout(timerId)
+      //clearTimeout(timerId)
       clearInterval(gameTime)
       gameBox.innerHTML = 'GAME OVER!'
       gameState = false
@@ -82,7 +82,7 @@ function modify() {
   } else if (this.style.backgroundColor == 'red') {
     this.style.backgroundColor = 'yellow'
   } else if (this.style.backgroundColor == 'blue') {
-    clearInterval(timer)
+    //clearInterval(timer)
     this.style.display = 'none'
     playerScore++
     let theScore = document.getElementById('score')
@@ -96,7 +96,8 @@ let elem = document.getElementById('time')
 
 function countdown() {
   if (timeLeft == -1) {
-    clearTimeout(timerId)
+    //clearTimeout(timerId)
+    return
   } else {
     elem.innerHTML = timeLeft
     timeLeft--

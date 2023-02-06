@@ -1,3 +1,15 @@
 # Clicker-Blinker
+Click the balls in this game! you'll need to have quick reflexes to succeed.
 
-An interative game I built using vanilla JavaScript, HTML and CSS. Click on the balls before they change colours and dissapear.
+Balls will appear on the screen and you'll need to click on them before they turn red and disappear! 
+
+# Demo 
+https://clicker-blinker-hygro5d.onrender.com (may take a while to load)
+
+# Technologies Used
+My game is built using the following technologies:
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
